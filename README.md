@@ -14,9 +14,11 @@ or, compile yourself at https://packager.turbowarp.org/
 * Pointerlock
 * Texture mapping
 * Gamepad support (wooah)
-* 60 frames per second (or custom, compile yourself)
+* Runs at 60 frames per second (or custom, compile yourself)
 * Infinite clones
 * raycasting!
+* No loading times except for the initial bootup
+* y-shearing
 * MEIN LEBEN
 
 ## Screenshots
