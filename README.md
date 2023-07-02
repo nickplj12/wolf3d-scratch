@@ -19,6 +19,7 @@ or, compile yourself at https://packager.turbowarp.org/
 * raycasting!
 * No loading times except for the initial bootup
 * y-shearing
+* Widescreen (16:9)
 * MEIN LEBEN
 
 ## Screenshots
