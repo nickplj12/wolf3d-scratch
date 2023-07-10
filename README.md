@@ -22,6 +22,23 @@ or, compile yourself at https://packager.turbowarp.org/
 * Widescreen (16:9)
 * MEIN LEBEN
 
+## Install
+get the latest build from releases. on windows/mac/linux it should work by default.
+### freebsd
+for freebsd, you have to do some setup first. this **does not work fully** yet, and might get you stuck on an error! if this does not work for you, just use the HTML build.
+
+change ./start.sh's **first** line to be:
+```bash
+#!/usr/local/bin/bash
+```
+then run
+```bash
+cd <dir where "wolfscratch" file is>
+sudo pkg install linux-c7-atk linux-c7-at-spi2-atk linux-c7-cups-libs linux-c7-gtk3 ffmpeg ffmpeg4
+sudo chown root chrome-sandbox
+sudo chmod 4755 chrome-sandbox
+```
+
 ## Screenshots
 <img width="494" alt="shot1" src="https://github.com/nickplj12/wolf3d-scratch/assets/78268270/2f7b4dd9-6fa7-487f-bc7f-7099ac222f5b">
 <img width="493" alt="shot2" src="https://github.com/nickplj12/wolf3d-scratch/assets/78268270/935365f6-2fd5-4b65-97f2-c2aa1c2cd8a7">
